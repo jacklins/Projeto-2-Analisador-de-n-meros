@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#titulo{
+    margin-top: 40px;
+    background-color: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#bloco{
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+
+}
+
+#inputnum {
+    width: 60%;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#lista {
+    width: 50%;
+}
